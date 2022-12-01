@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+body{
+    background-color: hsl(216, 12%, 8%);
+    font-family:'Overpass', sans-serif;
+}
+div{
+    background: linear-gradient(hsl(213, 20%, 15%),hsl(214, 16%, 10%));
+    margin-top: 150px;
+    margin-left: 450px;
+    height: 300px;
+    width: 320px;
+    margin: center;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+h1{
+    color: white;
+    margin: 20px 0px 0px 0px;
+}
+h5{
+    color: hsl(217, 12%, 63%);
+    margin: 10 px 0px;
+}
+section > img{
+    border-radius: 30px;
+    padding: 10px;
+    background-color:hsl(213, 19%, 18%);
+}
+
+h5 ~ section{
+    margin: 5px 0px;
+}
+
+section > button{
+
+    color:  hsl(217, 12%, 63%);
+    margin: 9.5px;
+    padding: 13px 17px;
+    border-radius: 30px;
+    background-color: hsl(213, 19%, 18%);
+    border:none;
+}
+
+section > button:hover{
+    cursor:pointer;
+    color: white;
+    background-color:hsl(25, 97%, 53%) ;
+}
+
+#xd > button{
+    color: white;
+    border-radius: 20px;
+    margin-left: 0px;
+    padding: 10px 140px;
+    background-color: hsl(25, 97%, 53%);
+    border-color: none;
+}
+
+#xd > button:hover{
+    color:hsl(25, 97%, 53%) ;
+    background-color: hsl(0, 0%, 100%);
+}
